@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<!-- saved from url=(0045)file:///C:/Users/prajw/Downloads/index_2.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PRAJWAL D — Full Stack Developer</title>
-<link href="./PRAJWAL D — portfolio_files/css2" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -257,33 +258,33 @@ section {
 </head>
 <body>
 
-<div class="cursor" id="cur" style="left: 268px; top: 267px;"></div>
-<div class="cursor-ring" id="curRing" style="left: 268px; top: 267px;"></div>
+<div class="cursor" id="cur"></div>
+<div class="cursor-ring" id="curRing"></div>
 <div id="toast">✓ Email copied — prajwaljdsp@gmail.com</div>
 
 <!-- LOADER -->
-<div id="loader" class="gone">
+<div id="loader">
   <div class="load-label">PRAJWAL</div>
   <div class="load-track"><div class="load-fill"></div></div>
 </div>
 
-<canvas id="bgCanvas" width="819" height="752"></canvas>
+<canvas id="bgCanvas"></canvas>
 
 <!-- NAV -->
 <nav>
-  <button class="nav-logo" onclick="goTo(&#39;hero&#39;)">P<span>.</span>D</button>
+  <button class="nav-logo" onclick="goTo('hero')">P<span>.</span>D</button>
   <ul class="nav-links">
-    <li><button onclick="goTo(&#39;about&#39;)">About</button></li>
-    <li><button onclick="goTo(&#39;skills&#39;)">Skills</button></li>
-    <li><button onclick="goTo(&#39;experience&#39;)">Exp</button></li>
-    <li><button onclick="goTo(&#39;projects&#39;)">Work</button></li>
-    <li><button onclick="goTo(&#39;contact&#39;)">Contact</button></li>
+    <li><button onclick="goTo('about')">About</button></li>
+    <li><button onclick="goTo('skills')">Skills</button></li>
+    <li><button onclick="goTo('experience')">Exp</button></li>
+    <li><button onclick="goTo('projects')">Work</button></li>
+    <li><button onclick="goTo('contact')">Contact</button></li>
   </ul>
 </nav>
 
 <!-- HERO -->
 <section id="hero">
-  <p class="hero-tag">Full Stack Developer — Bangalore, India</p>
+  <p class="hero-tag">Full Stack Developer &mdash; Bangalore, India</p>
   <h1 class="hero-name">
     <span class="line1">PRAJWAL</span>
     <span class="line2">D<span class="accent">AROJI</span></span>
@@ -295,8 +296,8 @@ section {
       production-grade microservices — engineered to last.
     </p>
     <div class="hero-cta">
-      <button class="btn btn-solid" onclick="goTo(&#39;projects&#39;)">View Work</button>
-      <button class="btn btn-outline" onclick="goTo(&#39;contact&#39;)">Get in Touch</button>
+      <button class="btn btn-solid" onclick="goTo('projects')">View Work</button>
+      <button class="btn btn-outline" onclick="goTo('contact')">Get in Touch</button>
     </div>
   </div>
   <div class="scroll-hint">
@@ -660,6 +661,5 @@ document.querySelectorAll('.reveal').forEach(el => io.observe(el));
   })();
 })();
 </script>
-
-
-</body></html>
+</body>
+</html>
